@@ -24,9 +24,9 @@ print("Sebas is the best") # in the python interpreter started from the previous
 
 ## Toddler steps
 
-...
+...Sin solucion
 
 ## Teenager steps
 
-...
+... Sin solucion
 
