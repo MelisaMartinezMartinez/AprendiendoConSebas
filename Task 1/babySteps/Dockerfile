@@ -1,2 +1,3 @@
-FROM public.ecr.aws/docker/library/python:3.9-slim-buster
-CMD ["python"]
+FROM python:3.7
+
+CMD ["/bin/bash"]
