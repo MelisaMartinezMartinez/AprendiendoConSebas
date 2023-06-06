@@ -8,7 +8,7 @@ The purpose is to get familiar with building simple images and running container
 
 1. Create a Dockerfile that starts from python 3.7
 2. Create an image from such docker file
-3. Create a container from the resulting image
+3. Execute a container in interactive mode from the resulting image
 4. Enter into the container and start python, then run `print("Sebas is the best")`
 
 ### Solution
