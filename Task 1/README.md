@@ -26,7 +26,7 @@ print("Sebas is the best") # in the python interpreter started from the previous
 
 Task description:
 
-1. Create a file called "app.py" that contains the code line: "print("Meli is the second best")".
+1. Create a file called "app.py" that contains the code line: `print("Meli is the second best")`.
 2. Create a Dockerfile that starts with Python 3.9 and copy the file "app.py" to the root directory.
 3. Create an image from such docker file.
 4. Create a container from the resulting image.
