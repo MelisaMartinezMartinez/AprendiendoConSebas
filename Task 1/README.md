@@ -34,7 +34,7 @@ Task description:
 
 ## Teenager steps
 
-1. Create a file called "app.py" that contains the code line: "print("Meli is the second best")".
+1. Create a file called "app.py" that contains the code line: `print("Meli is the second best")`.
 2. Create a Dockerfile that starts with Python 3.10, copy the file "app.py" to the root directory and run the command python app.py
 3. Create an image from such docker file.
 4. Create a container from the resulting image.
