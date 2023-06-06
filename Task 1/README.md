@@ -24,9 +24,18 @@ print("Sebas is the best") # in the python interpreter started from the previous
 
 ## Toddler steps
 
-...Sin solucion
+Task description:
+
+1. Create a file called "app.py" that contains the code line: "print("Meli is the second best")".
+2. Create a Dockerfile that starts with Python 3.9 and copy the file "app.py" to the root directory.
+3. Create an image from such docker file.
+4. Create a container from the resulting image.
+5. Enter into the container and start python, then run `print("Sebas is the best")`.
 
 ## Teenager steps
 
-... Sin solucion
-
+1. Create a file called "app.py" that contains the code line: "print("Meli is the second best")".
+2. Create a Dockerfile that starts with Python 3.10, copy the file "app.py" to the root directory and run the command python app.py
+3. Create an image from such docker file.
+4. Create a container from the resulting image.
+5. Run the container without getting into the container. 
