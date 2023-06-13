@@ -39,3 +39,23 @@ Task description:
 3. Create an image from such docker file.
 4. Create a container from the resulting image.
 5. Run the container without getting into the container. 
+
+## Junior Engineer level 0
+1. Create a container with Python 3.10
+2. Inside the container, install [FastAPI](https://fastapi.tiangolo.com)
+3. Inside the container create a file called `main.py` with the contents of [the first FastAPI example found in the documentation](https://fastapi.tiangolo.com/#example).
+4. Inside the container, execute the example using `uvicorn` as shown in the FastAPI guide. 
+5. Inside the container, make requests using [`curl`](https://curl.se/docs/manpage.html) to validate that everything works. 
+
+## Junior Engineer level 0.1
+1. Create a file named `main.py` with the contents of [the first FastAPI example found in the documentation](https://fastapi.tiangolo.com/#example).
+2. Create a container with Python 3.10, FastAPI installed and the file `main.py`.
+3. Inside the container, execute the example using `uvicorn` as shown in the FastAPI guide. 
+4. Inside the container, make requests using [`curl`](https://curl.se/docs/manpage.html) to validate that everything works. 
+
+## Junior Engineer level 0.2
+1. Do steps 1 and 2 from previous task
+2. Run the container mapping inside the container to ports on the host, so that we can use the application from the host machine.
+3. Outside the container, make requests using [`curl`](https://curl.se/docs/manpage.html) to validate that everything works. 
+4. Open the docs page of the FastAPI app and validate that you can make requests as explained in FastAPI docs (see https://fastapi.tiangolo.com/#interactive-api-docs).
+5. Answer the question: why is step 2 required to perform 3 and 4?
